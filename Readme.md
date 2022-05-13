@@ -7,7 +7,7 @@
 #### Todo
 - Register (currently it can be only made by admin panel or code)
 - Create news from the app (it can be only made by admin panel at the moment)
-
+- TESTING
 
 #### Tecnologies used
 Backend -> Nodejs + Typescript + Mongoose
@@ -21,7 +21,7 @@ They are commited in .env file (NOT RECOMMENDED!) for this case
 ### First of all -> Install NPM Deps
 
 ```bash
-npm i && npm i -w backend && npm i -w frontend
+npm install
 ```
 
 ### Run project
