@@ -16,7 +16,7 @@ export class NoveltyController {
 
   static async getUserNovelties(req, res) {
     const user = req.user;
-    const userNovelties = await Novelty.find({ _id: { $in: user.novelties } }).select('-author');
+    const userNovelties = await Novelty.find({ _id: { $in: user.novelties } }).select('-author').sort('-archiveDate');
     return res.status(200).send(userNovelties);
   }
 
