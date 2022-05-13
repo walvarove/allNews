@@ -52,3 +52,8 @@ WEBAPP (Not credentials required)
 (just for admin data as superuser)
 
 > http://localhost:3000
+
+
+## DEMO CREDENTIALS
+username: user1
+password: admin1234
