@@ -1,0 +1,15 @@
+{
+  "name": "all-frounds-news-workspaces",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "front:dev": "cd frontend && npm run start",
+    "back:dev": "cd backend && npm run dev",
+    "dev": "concurrently --kill-others \"npm run front:dev\" \"npm run back:dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0"
+  }
+}
